@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-pink-100 my-10" >
+    <div className="bg-pink-100 my-10">
       <ul className="flex  justify-around gap-4 rounded-md">
         <Link href={"/"}>
           <li className="text-2xl text-pink-800 hover:text-pink-600">HOME</li>
@@ -20,8 +20,6 @@ const Navbar = () => {
         <Link href={"/login"}>
           <li className="text-2xl text-pink-800 hover:text-pink-600"> LOGIN</li>
         </Link>
-
-
       </ul>
     </div>
   );
